@@ -27,7 +27,7 @@ SECRET_KEY = 'qkovqi%s(x-pzr!2qpwdn4wyzp%cy^swnf1cj#q7abmcg3(-cw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['vit123.pythonanywhere.com']
+ALLOWED_HOSTS = ['vit123.pythonanywhere.com','127.0.0.1']
 
 
 # Application definition
