@@ -32,21 +32,10 @@
 
 
 {% else %}
-  <div class="row">
-    <div class="col-md-6 col-md-4">
-
-      <div class="thumbnail">
-        <img src="{% static "images/sad_cat.jpg" %}" alt="...">
-        <div class="caption">
-          <h3>This is sad cat</h3>
-          <p>He is sad because you are not loggined </p>
-
+  
           <p><a href="{% url 'basic_app:user_login' %}" class="btn btn-primary" role="button">Sign in </a>
             <a href="{% url 'basic_app:register'%}" class="btn btn-primary" role="button">Register</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
+
 {% endif %}
 
 
